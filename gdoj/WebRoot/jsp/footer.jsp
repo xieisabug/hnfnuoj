@@ -3,8 +3,9 @@
  
 
  <div id="footer">
-    Copyright &copy; 2011-2013 <a href="mailto:269574524@qq.com" style="text-decoration: none;">Zengke Wei</a>. All Rights Reserved. <a href="topic/75" style="text-decoration: none;" target="_blank">Open Source Project</a><br>
-	The Programming Contest Web 1.5 platform & Judge Kernel 1.0 version.
+    Copyright &copy; hnfnu All Rights Reserved.</br>
+    GPL2.0 2011-2013 <a href="https://code.google.com/p/acsolo-oj/" style="text-decoration: none;">acsolo-oj</a> Project TEAM. 
+     <br>
 </div>
 
 <script type="text/javascript">
