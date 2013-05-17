@@ -24,43 +24,8 @@
 	}	
 	</style>
 	
-	<jsp:include page="/WEB-INF/templates/sidebarex.html"></jsp:include>
-	
-
-	<div class="sidebox roundbox ">
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>	    
-	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
-	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.topusers"/></div>
-	            </div>  
-	           	<div class="top10">
-	            <table class="rtable">
-					<tbody>
-					<tr>
-					<th class="left-item" style="width:28px;">#</th>
-					<th class="user" ><s:text name="author"/></th>
-					<th class="" style="width:48px;"><s:text name="solved"/></th>
-					</tr>
-						<jsp:include page="/WEB-INF/templates/topusers.html"></jsp:include>
-					</tbody>
-				</table>
-	            </div>
-	            <div class="bottom-link" >
-					<table style="width:100%;">
-                    <tbody>
-                        <tr>
-                            <td style="text-align:left;">
-                            </td>
-                            <td style="text-align:right;">
-                                    <a href="problemset/standings">More &rarr;</a>
-                            </td>
-                        </tr>
-                    </tbody>
-                    </table>
-				</div>   
-	</div>
-	
-		        <div class="sidebox roundbox">
+	<%--<jsp:include page="/WEB-INF/templates/sidebarex.html"></jsp:include>--%>
+<div class="sidebox roundbox">
             	<div class="roundbox-lt">&nbsp;</div>
 	       		<div class="roundbox-rt">&nbsp;</div>	    
 	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
@@ -125,8 +90,62 @@
 		
 	});
 </script>
-   </div> 
+   </div> 	
+
+
+
+
+
+
+	<%--<div class="sidebox roundbox ">
+            	<div class="roundbox-lt">&nbsp;</div>
+	       		<div class="roundbox-rt">&nbsp;</div>	    
+	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
+	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.topusers"/></div>
+	            </div>  
+	           	<div class="top10">
+	            <table class="rtable">
+					<tbody>
+					<tr>
+					<th class="left-item" style="width:28px;">#</th>
+					<th class="user" ><s:text name="author"/></th>
+					<th class="" style="width:48px;"><s:text name="solved"/></th>
+					</tr>
+						<jsp:include page="/WEB-INF/templates/topusers.html"></jsp:include>
+					</tbody>
+				</table>
+	            </div>
+	            <div class="bottom-link" >
+					<table style="width:100%;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left;">
+                            </td>
+                            <td style="text-align:right;">
+                                    <a href="problemset/standings">More &rarr;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+				</div>   
+	</div>--%>
 	
+		        
+	<div class="sidebox roundbox" >
+            	<div class="roundbox-lt">&nbsp;</div>
+	       		<div class="roundbox-rt">&nbsp;</div>    
+	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
+	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.onlineusers"/> (<span class="user-sum">0</span>)</div>
+	            </div>  
+	            <div class="sidebar-online-users" style="padding: 6px;">					
+	           		<img alt="Loading..." src='img/loader.gif'/>
+	            </div>	           
+	       </div> 
+	       
+	       
+	       
+	       
+	       
 	<div class="sidebox roundbox " >
             	<div class="roundbox-lt">&nbsp;</div>
 	       		<div class="roundbox-rt">&nbsp;</div>	    
@@ -151,16 +170,7 @@
 				</div>    
 		</div>
 
-   		<div class="sidebox roundbox" >
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>    
-	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
-	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.onlineusers"/> (<span class="user-sum">0</span>)</div>
-	            </div>  
-	            <div class="sidebar-online-users" style="padding: 6px;">					
-	           		<img alt="Loading..." src='img/loader.gif'/>
-	            </div>	           
-	       </div>      	  
+   		     	  
 <script type="text/javascript">
 $(document).ready(function() {
 			$.post(
