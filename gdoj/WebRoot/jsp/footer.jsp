@@ -3,7 +3,7 @@
  
 
  <div id="footer">
-    Copyright &copy; hnfnu All Rights Reserved.</br>
+    Copyright &copy; Xie jingyang && Wang yan, All Rights Reserved.</br>
     GPL2.0 2011-2013 <a href="https://code.google.com/p/acsolo-oj/" style="text-decoration: none;">acsolo-oj</a> Project TEAM. 
      <br>
 </div>

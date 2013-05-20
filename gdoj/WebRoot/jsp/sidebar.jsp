@@ -24,10 +24,10 @@
 	}	
 	</style>
 	
-	<%--<jsp:include page="/WEB-INF/templates/sidebarex.html"></jsp:include>--%>
+	<jsp:include page="/WEB-INF/templates/sidebarex.html"></jsp:include>
 <div class="sidebox roundbox">
            
-	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
+	            <div class="top-link" >
 	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.findusers"/></div>
 	            </div>  
 	            
@@ -132,7 +132,7 @@
 		        
 	<div class="sidebox roundbox" >
             	
-	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
+	            <div class="top-link" >
 	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.onlineusers"/> (<span class="user-sum">0</span>)</div>
 	            </div>  
 	            <div class="sidebar-online-users" style="padding: 6px;">					
@@ -146,7 +146,7 @@
 	       
 	<div class="sidebox roundbox " >
             	
-	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
+	            <div class="top-link" >
 	            	<div class="title-sidebox" style=""><s:text name="sidebar.recentaction"/></div>
 	            </div>  
 	            <div class="latest_news" style="">
