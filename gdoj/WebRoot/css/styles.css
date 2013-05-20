@@ -97,6 +97,7 @@ table{border-collapse:collapse;border-spacing:0;}
 body,select,input{font-family:verdana,arial,sans-serif;}
 form{padding:0;margin:0;}
 input{padding-left:1px;padding-right:1px;}
+
 input[type=submit]{background-color: #3B5998; color:#fff; border: solid 1px #3B5998;}
 input[type=submit]:active{background-color: #111111; color:#fff; border: solid 1px #3B5998;}
 
