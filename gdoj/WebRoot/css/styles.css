@@ -100,6 +100,10 @@ input{padding-left:1px;padding-right:1px;}
 
 input[type=submit]{background-color: #3B5998; color:#fff; border: solid 1px #3B5998;}
 input[type=submit]:active{background-color: #111111; color:#fff; border: solid 1px #3B5998;}
+input[type=reset]{background-color: #3B5998; color:#fff; border: solid 1px #3B5998;}
+input[type=reset]:active{background-color: #111111; color:#fff; border: solid 1px #3B5998;}
+input[type=button]{background-color: #3B5998; color:#fff; border: solid 1px #3B5998;}
+input[type=button]:active{background-color: #111111; color:#fff; border: solid 1px #3B5998;}
 
 body{
 	/*font-size:87.5%;*/
