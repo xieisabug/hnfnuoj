@@ -63,10 +63,6 @@ SyntaxHighlighter.all();
 		     </div>
 		     
 <div class="topic-tools-box roundbox">
-	 <div class="roundbox-lt">&nbsp;</div>
-	 <div class="roundbox-rt">&nbsp;</div>	
-	 <div class="roundbox-lb">&nbsp;</div>
-	 <div class="roundbox-rb">&nbsp;</div>	
 
 <span class="tags">
 <s:iterator  value="tagsList" status="tagsst" >
@@ -133,10 +129,6 @@ SyntaxHighlighter.all();
 		 <!-- Follow By -->
  <s:if test="commentsList.size>0">
  		  <div class=" roundbox">
-		      <div class="roundbox-lt">&nbsp;</div>
-			  <div class="roundbox-rt">&nbsp;</div>	
-			  <div class="roundbox-lb">&nbsp;</div>
-			  <div class="roundbox-rb">&nbsp;</div>	
 			  <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="titled" style="width: 100%"><b><a name="comments">Followed By</a></b><br/></div>
 	          </div>       

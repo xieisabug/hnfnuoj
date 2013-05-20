@@ -60,10 +60,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	   </div>
        <div class="content " style="">
 		       <div class="profile roundbox " style="">   
-		          <div class="roundbox-lt">&nbsp;</div>
-	       		  <div class="roundbox-rt">&nbsp;</div>	   
-	       		  <div class="roundbox-lb">&nbsp;</div>
-	       		  <div class="roundbox-rb">&nbsp;</div>	 
 	       		<div style="padding: 6px;">
 				    <div style="float:right;border:1px solid #B9B9B9;width:240px;min-height:150px;padding:12px;">
 				    	<div>

@@ -40,10 +40,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	 	<a href="problemset/standings"><s:text name="standings"/></a>
      	</div>
 	    <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="problems"/>
 				</div>
@@ -55,8 +51,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 			</div> 		
 			<div class="innertable" style="position: relative;margin:0.3em 3px 0 3px;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="problem">
 					 <tr class="header">
 					   <th class="id left-item"><s:text name="problemid"/></th>

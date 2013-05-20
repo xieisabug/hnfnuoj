@@ -38,10 +38,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	      	</div>
 	  <div class="content " style="">   
 	      <div class="profile roundbox" style="">
-			   <div class="roundbox-lt">&nbsp;</div>
-	       	   <div class="roundbox-rt">&nbsp;</div>	
-	       	   <div class="roundbox-lb">&nbsp;</div>
-	           <div class="roundbox-rb">&nbsp;</div>	    
 			   <div style="padding:6px;height:320px;">
 			  		 <div style="float:right;border:1px solid #B9B9B9;width:260px;min-height:150px;padding:12px;">
 			  				<div style="min-height:200px;line-height:200px;text-align:center;">
@@ -76,10 +72,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		  </div>
 		  
 		  <div class="profile roundbox" style="">
-		   		  <div class="roundbox-lt">&nbsp;</div>
-	       		  <div class="roundbox-rt">&nbsp;</div>	   
-			   	  <div class="roundbox-lb">&nbsp;</div>
-	       		  <div class="roundbox-rb">&nbsp;</div>	 
 			   	 <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="titled" style="width: 100%">Problem Solved (<s:property value="problemSolvedList.size"/>)</div>
 	            </div>  
@@ -90,10 +82,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</div>		   
 		   </div>  
 		   <div class="profile roundbox" style="">
-		        <div class="roundbox-lt">&nbsp;</div>
-	       		  <div class="roundbox-rt">&nbsp;</div>	   
-			   	<div class="roundbox-lb">&nbsp;</div>
-	       		  <div class="roundbox-rb">&nbsp;</div>	 
 			   	 <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="titled" style="width: 100%">Problem Tried (<s:property value="problemTryList.size"/>)</div>
 	            </div> 

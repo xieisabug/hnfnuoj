@@ -234,8 +234,6 @@ function HS_setDate(inputObj){
       <div id="content" >
 		 <div>
 			<div class="roundbox round_0123" style="width: 420px;margin: 24px auto;">
-<!--            	<div class="roundbox-lt">&nbsp;</div>-->
-<!--            	<div class="roundbox-rt">&nbsp;</div>-->
 					<div class="top-link"> 
 					  <div class="titled">Token Of  OnlneJudge   
 			          </div>

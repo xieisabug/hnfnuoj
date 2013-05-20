@@ -85,18 +85,12 @@ $(document).ready(function() {
      	<s:if test="userList.size!=0">	
      	<!-- Users -->
      	 <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="users"/> (<s:property value="userList.size"/>)</div>
 				<div class="right"></div>
 			</div> 		
 			<br/>   
 			<div class="innertable ">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>
 				<table class="standings">
 					 <tr class="header" style="">  
 		               	 <th  class="rank left-item">#</th>
@@ -144,18 +138,12 @@ $(document).ready(function() {
      	
      	<!-- Problem -->
 	    <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="problem"/> (<s:property value="problemList.size"/>)</div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;margin:0.3em 3px 0 3px;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="problem">
 					 <tr class="header">
 					   <th class="id left-item">#</th>
@@ -194,18 +182,12 @@ $(document).ready(function() {
 	   <s:if test="messageList.size!=0">	 
 	   <!-- Topic -->
   	   <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="topic.topics"/> (<s:property value="messageList.size"/>)</div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;margin:0.3em 3px 0 3px;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="topics">
 					 <tr class="header">					 
 					   <th class="id left-item">#</th>

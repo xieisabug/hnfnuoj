@@ -34,10 +34,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      	</div>
 	    <div class="content" style="">	    	
 			<div class="roundbox" style="word-wrap:break-word;">		
-				 <div class="roundbox-lt">&nbsp;</div>
-	       		  <div class="roundbox-rt">&nbsp;</div>	
-	       		  <div class="roundbox-lb">&nbsp;</div>
-	       		  <div class="roundbox-rb">&nbsp;</div>	 		
 				<div class="info" style="padding:12px;">
 				<h5>
 				<s:text name="compileinfo"/>:<s:property value="solutionId"/>

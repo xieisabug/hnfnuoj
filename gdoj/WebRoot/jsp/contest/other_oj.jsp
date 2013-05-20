@@ -42,18 +42,12 @@ $(document).ready(function() {
      	</div>	 
 		<!-- Ended  -->
 	    <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left">Data collected from <a href="http://acmicpc.info/archives/224" style="color:#FF8C00;text-decoration: none;">acmicpc.info</a></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="contest" id="contest_body">
 <tr class='header'><th class='oj left-item'>OJ</th><th class='name '>Title</th>
 		                 <th class='start'>Start</th>

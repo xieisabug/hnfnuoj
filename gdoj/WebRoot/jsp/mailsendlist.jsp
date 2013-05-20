@@ -41,18 +41,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      	    	<a href="mails/new"><s:text name="mails.new"/></a>    	
      	</div>
 	    <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="mails.sendlist"/></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;margin:0.3em 3px 0 3px;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="mails">
 					 <tr class="header">
 					   <th class="status left-item"><s:text name="mails.status"/></th>

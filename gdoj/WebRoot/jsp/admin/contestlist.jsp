@@ -32,8 +32,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 		<div id="sidebar"> 	
             <div class="sidebox roundbox">
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>
 	       		    
 	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="title-sidebox" style="width: 100%">Tools Box</div>
@@ -56,18 +54,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   	 	</div>
 		 <!-- Ended  -->
 	    <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="contests"/></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="contest">
 					 <tr class="header">           	 
 						 <th class="id left-item"><s:text name="id"/></th>

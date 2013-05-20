@@ -29,10 +29,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <div id="content" >
 		 <div>
 			<div class="roundbox" style="width: 420px;margin: 24px auto;">
-            	<div class="roundbox-lt">&nbsp;</div>
-           		<div class="roundbox-rt">&nbsp;</div>
-           		<div class="roundbox-lb">&nbsp;</div>
-           		<div class="roundbox-rb">&nbsp;</div>
 					<div class="top-link"> 
 					  <div class="titled">Password-Recovery  
 			          </div>
