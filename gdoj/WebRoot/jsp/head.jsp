@@ -112,9 +112,6 @@
 			</li>
 		</ul>
 	</div>
-	<div class="header_after_bg">
-	
-	</div>
 </div>
 <script type="text/javascript"
 	src="<%=basePath%>js/poshytip/jquery.poshytip.js">
