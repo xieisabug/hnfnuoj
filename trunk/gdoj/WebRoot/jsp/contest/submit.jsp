@@ -34,8 +34,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <div id="body">
   		<div id="sidebar"> 	
             <div class="sidebox roundbox">
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>    
 	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="title-sidebox" style="width: 100%"><s:text name="sidebar.infobox"/></div>
 	            </div>  
@@ -68,10 +66,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      	</div>
 	    <div class="content" style="">	    				
 				<div class="roundbox" style="word-wrap:break-word;">		
-				 <div class="roundbox-lt">&nbsp;</div>
-	       		  <div class="roundbox-rt">&nbsp;</div>	    
-	       		  <div class="roundbox-lb">&nbsp;</div>
-	       		  <div class="roundbox-rb">&nbsp;</div>	 
 				<s:form id="submit" method="post" action="submited.action" theme="simple">
 					<input type="hidden" name="contestId" value="<s:property value="contestId"/>"/>
 					<div class="info" style="width:560px;margin: 0px auto;padding:12px 12px 12px 12px;">

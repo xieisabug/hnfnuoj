@@ -79,18 +79,12 @@ $(document).ready(function(){
 
 	    </div>  
 	    <div class="datatable" style="">	
-	    		<div class="lt">&nbsp;</div>
-	            <div class="rt">&nbsp;</div>
-	            <div class="lb">&nbsp;</div>
-	            <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="status"/></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>
 				<table class="status">
 					 <tr class="header">
 		               	 <th  class="id left-item"><s:text name="statusid"/></th>

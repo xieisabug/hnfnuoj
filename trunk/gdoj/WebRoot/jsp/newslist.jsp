@@ -34,18 +34,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		 <!-- Ended  -->
 		 
 	<div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
+	   
+		 
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="news"/></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="topics">
 					 <tr class="header">           	 
 		               	 <th class="title left-item"><s:text name="topic.title"/></th>

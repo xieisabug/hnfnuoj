@@ -33,8 +33,6 @@ SyntaxHighlighter.all();
   	<div id="body">
 		<div id="sidebar"> 	
             <div class="sidebox roundbox">
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>
 	       		    
 	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="title-sidebox" style="width: 100%">Tools Box</div>
@@ -60,18 +58,12 @@ SyntaxHighlighter.all();
      		<a href="admin/privilege">Privilege</a>		
      	</div>
 	    <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="problems"/></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;margin:0.3em 3px 0 3px;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="problem">
 					 <tr class="header">
 					   <th class="id left-item"><s:text name="problemid"/></th>

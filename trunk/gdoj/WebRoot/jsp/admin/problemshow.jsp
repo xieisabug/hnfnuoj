@@ -34,8 +34,6 @@ SyntaxHighlighter.all();
 
 	<div id="sidebar"> 	
              <div class="sidebox roundbox">
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>
 	       		    
 	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="title-sidebox" style="width: 100%">Problem Info.</div>
@@ -48,8 +46,6 @@ SyntaxHighlighter.all();
 	        </div>    
 
             <div class="sidebox roundbox">
-            	<div class="roundbox-lt">&nbsp;</div>
-	       		<div class="roundbox-rt">&nbsp;</div>
 	       		    
 	            <div class="top-link" style="border-bottom: 1px solid #b9b9b9;">
 	            	<div class="title-sidebox" style="width: 100%">Tools Box</div>

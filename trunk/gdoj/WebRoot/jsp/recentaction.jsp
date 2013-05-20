@@ -43,18 +43,12 @@ SyntaxHighlighter.all();
 			<a href="topic/new" title=<s:text name="topic.new"/> ><s:text name="topic.new"/></a>
      	</div>
 	   <div class="datatable">	
-	    	<div class="lt">&nbsp;</div>
-	        <div class="rt">&nbsp;</div>
-	        <div class="lb">&nbsp;</div>
-	        <div class="rb">&nbsp;</div>
 	    	<div style="padding: 4px 0 0 6px;position: relative;">
 				<div class="left"><s:text name="sidebar.recentaction"/></div>
 				<div class="right"></div>
 			</div> 		
 			<br/>
 			<div class="innertable" style="position: relative;margin:0.3em 3px 0 3px;">
-				<div class="ilt">&nbsp;</div>
-           		<div class="irt">&nbsp;</div>	
 				<table class="topics">
 					 <tr class="header">	
 					   
